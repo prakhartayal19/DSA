@@ -42,7 +42,7 @@ class LinkedList:
             self.__tail.set_next(new_node)
             self.__tail=new_node
             
-    ### Searching
+    **Searching**
         
     def find(self,data):
         temp=self.get_head()
